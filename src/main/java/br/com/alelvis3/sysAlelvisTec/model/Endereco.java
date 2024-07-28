@@ -24,11 +24,12 @@ public class Endereco {
 	private String bairro;
 
 	@Column(length = 50)
-	private String localidade;
+	private String cidade;
 
 	@Enumerated
 	private Uf uf;
 
 	@Column(length = 10)
 	private String numero;
+	
 }

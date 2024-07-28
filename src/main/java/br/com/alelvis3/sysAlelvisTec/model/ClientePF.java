@@ -38,6 +38,6 @@ public class ClientePF {
 	@Embedded
 	private Endereco endereco;
 
-	//@Column(nullable = false)
+    @Column(nullable = false)
 	private Boolean ativo;
 }
